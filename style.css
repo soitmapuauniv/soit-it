@@ -157,6 +157,12 @@ div.aboutme {
 	border-radius: 6px;
 }
 
+div.aboutme2 {
+	text-align: center;
+	padding: 15px;
+	border-radius: 6px;
+}
+
 iframe {
 	width: 100%;
 	height: 320px;
