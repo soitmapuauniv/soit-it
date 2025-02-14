@@ -4,7 +4,7 @@ body {
 	font-family: 'Public Sans', sans-serif;
 	background-image: linear-gradient(to bottom left, #5d6d7e, #34495e, #2e4053, #34495e, #5d6d7e);
 	background-attachment: fixed;
-	text-align: center; /* Center all text in body */
+	text-align: center;
 }
 
 div.profile {
@@ -12,10 +12,10 @@ div.profile {
 	border: 3px solid #5d6d7e;
 	border-radius: 12px;
 	padding: 20px;
-	float: left;
-	width: 23%;
-	position: fixed;
-	text-align: center; /* Center text in profile div */
+	margin: 0 auto;
+	width: 50%; /* Adjusted for center column */
+	position: relative; /* Changed from fixed */
+	text-align: center;
 }
 
 div.pfp {
@@ -24,39 +24,29 @@ div.pfp {
 	line-height: 0.33cm;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #2e3e4f;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 6px;
-    text-align: center; /* Center text in dropdown */
-}
-
 div.main {
-	margin: auto;
+	margin: 20px auto;
 	background-color: #212f3d;
 	border: 3px solid #5d6d7e;
 	border-radius: 12px;
 	padding: 20px;
-	float: right;
-	width: 69.5%;
-	text-align: center; /* Center text in main div */
+	width: 50%; /* Adjusted for center column */
+	text-align: center;
+	float: none;
 }
 
 nav.links {
 	display: flex;
-	justify-content: space-around;
+	flex-direction: column; /* Stack links vertically */
+	align-items: center;
 	background-color: #2e3e4f;
 	box-shadow: 0px 2px 3px black;
 	border-radius: 6px;
-	text-align: center; /* Center text in nav links */
+	text-align: center;
 }
 
 div.strength, div.level, div.social-links, div.card, div.aboutme {
-    text-align: center; /* Center text in these divs */
+    text-align: center;
+    width: 50%; /* Centered column width */
+    margin: 20px auto;
 }
-
-
