@@ -52,13 +52,13 @@ div.pfp {
 .dropdown-content a:hover {
     background-color: #485b71;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-	text-align: left;
+	text-align: center;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
