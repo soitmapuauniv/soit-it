@@ -4,6 +4,7 @@ body {
 	font-family: 'Public Sans', sans-serif;
 	background-image: linear-gradient(to bottom left, #5d6d7e, #34495e, #2e4053, #34495e, #5d6d7e);
 	background-attachment: fixed;
+	text-align: center; /* Center all text in body */
 }
 
 div.profile {
@@ -14,6 +15,7 @@ div.profile {
 	float: left;
 	width: 23%;
 	position: fixed;
+	text-align: center; /* Center text in profile div */
 }
 
 div.pfp {
@@ -22,13 +24,6 @@ div.pfp {
 	line-height: 0.33cm;
 }
 
-/* Dropdown container */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -37,36 +32,7 @@ div.pfp {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 6px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: whitesmoke;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #485b71;
-	width: 100%;
-	text-align: left;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-	text-align: left;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #485b71;
-    text-shadow: 0 0 2px whitesmoke;
-    box-shadow: 0 0 5px #485b71;
-    transition: 0.5s;
+    text-align: center; /* Center text in dropdown */
 }
 
 div.main {
@@ -77,18 +43,7 @@ div.main {
 	padding: 20px;
 	float: right;
 	width: 69.5%;
-	
-}
-
-img.pfp {
-	border-radius: 10px;
-	width: 60%;
-	height: 60%;
-}
-
-div.main img {
-	width: 32%;
-	height: 32%;
+	text-align: center; /* Center text in main div */
 }
 
 nav.links {
@@ -97,80 +52,11 @@ nav.links {
 	background-color: #2e3e4f;
 	box-shadow: 0px 2px 3px black;
 	border-radius: 6px;
+	text-align: center; /* Center text in nav links */
 }
 
-nav.links a:link, a:visited {
-	background-color: #2e3e4f;
-	color: whitesmoke;
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	padding: 15px 20px;
+div.strength, div.level, div.social-links, div.card, div.aboutme {
+    text-align: center; /* Center text in these divs */
 }
 
-nav.links a:hover, a:active {
-	background-color: #485b71;
-	text-shadow: 0 0 2px whitesmoke;
-	box-shadow: 0 0 5px #485b71;
-	transition: 0.5s;
-}
-
-div.strength {
-	float: left;
-	padding: 6px;
-}
-
-div.level {
-	float: right;
-	padding: 3px;
-	border-radius: 50px;
-	border:  1px solid whitesmoke;
-} 
-
-div.social-links {
-	margin: auto;
-	text-align: center;
-}
-
-div.social-links img {
-	background-color: white;
-	border-radius: 50%;
-	height: 8%;
-	width: 8%;
-
-}
-
-div.social-links img:hover {
-	opacity: 0.5;
-	transition: 1s;
-}
-
-
-div.card {
-	text-align: center;
-	border-radius: 6px;
-	background-color: #34495e;
-	border: 2px solid #5d6d7e;
-	padding: 10px;
-	width: 40%;
-	margin: auto;
-}
-
-div.card a {
-	color: white;
-}
-
-div.aboutme {
-	text-align: center;
-	background-image: linear-gradient(to bottom, #34495e, #22303e, #212f3d);
-	background-attachment: fixed;
-	padding: 15px;
-	border-radius: 6px;
-}
-
-iframe {
-	width: 100%;
-	height: 320px;
-}
 
