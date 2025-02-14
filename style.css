@@ -166,7 +166,9 @@ div.aboutme2 {
 	border-radius: 6px;
 	width: 50%;
 	margin: auto;
-	line-height: 3px;
+	line-height: 5%;
+	background-color: #34495e;
+	border: 2px solid #5d6d7e;
 }
 
 iframe {
