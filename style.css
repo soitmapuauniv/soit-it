@@ -146,21 +146,6 @@ div.social-links img:hover {
 	transition: 1s;
 }
 
-
-div.card {
-	text-align: center;
-	border-radius: 6px;
-	background-color: #34495e;
-	border: 2px solid #5d6d7e;
-	padding: 10px;
-	width: 40%;
-	margin: auto;
-}
-
-div.card a {
-	color: white;
-}
-
 div.aboutme {
 	text-align: center;
 	background-image: linear-gradient(to bottom, #34495e, #22303e, #212f3d);
