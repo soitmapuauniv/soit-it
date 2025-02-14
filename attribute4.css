@@ -290,9 +290,8 @@ iframe {
 	background-color: #34495e;
 	font-size: 20px;
 	text-align: center;
-	border:5px;
 	border-radius: 10px;
-	border:2px solid #212f3d;
+	border:3px solid #212f3d;
 	padding:20px;
 	margin: 10px 5px;
 }
